@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "cat-demo-app-mew",
+    "slug": "cat-demo-app-mew",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "cat-demo-app-mew"
+}
