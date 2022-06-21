@@ -1,0 +1,5 @@
+random: https://cataas.com/cat
+meme generator mode: https://cataas.com/cat/says/ **whatever**
+bulk: https://cataas.com/api/cats ?type= **whatever** for filter
+get cat from id: https://cataas.com/cat/ **id**
+tags: https://cataas.com/api/tags
