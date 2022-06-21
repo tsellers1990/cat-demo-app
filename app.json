@@ -5,7 +5,10 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tsellers1990.cat-demo-app-mew"
+    }
   },
   "name": "cat-demo-app-mew"
 }
