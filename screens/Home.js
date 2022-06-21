@@ -7,7 +7,7 @@ const Home = () => {
   const [catsJson, setCatJson] = useState([]);
 
   useEffect(() => {
-    fetch("https://cataas.com/api/cats?limit=10")
+    fetch("https://cataas.com/api/cats?limit=20")
       .then((response) => {
         return response.json();
       })
