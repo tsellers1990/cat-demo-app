@@ -12,7 +12,7 @@ const Home = () => {
         return response.json();
       })
       .then((json) => {
-        setCatJson(json)
+        setCatJson(json);
       });
   }, []);
 
@@ -35,14 +35,18 @@ const Home = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#7a7a7a",
   },
   titleContainer: {
     paddingTop: 50,
     paddingBottom: 10,
     borderWidth: 1,
     borderBottomColor: "#9a9a9a",
+    backgroundColor: "#fff",
   },
   title: {
+    fontWeight: "bold",
+    fontSize: 24,
     textAlign: "center",
   },
   listContainer: {
